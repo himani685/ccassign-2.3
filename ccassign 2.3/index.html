@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:#454545 ;
+            height: 40px;
+            width:100%;
+            
+            /* margin-bottom: 30px; */
+            /* margin-top: -26px;
+            flex-wrap: wrap;
+        }
+        a{
+            margin-top: 10px;
+            text-decoration: none;
+            color: azure;
+        }
+        #page{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        #page>div{
+            display: grid;
+            grid-template-columns: 200px 700px;
+            grid-template-rows: 200px;
+            justify-content: space-between;
+            /* border:2px solid black; */
+            /* border-radius: 10px;
+            margin: 20px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        #page>div>div+div{ */
+            /* display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-right: 40px;
+        }
+        #page>div>div>h3{
+            color: green;
+
+
+        } */
+        /* h1{ */
+            /* color: rgb(12, 234, 234);
+            background-color: rgb(28, 24, 24);
+            font-weight: bolder;
+            text-align: center;
+            height: 80px;
+            margin-top: -10px;
+        padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+            #top{
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                flex-wrap: wrap;
+                width: 100%;
+ 
+            } */ 
+            #whole{
+                display: flex;
+                flex-direction: column;
+            }
+            #top{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                margin-top: -10px;
+            }
+            #navbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                background-color: grey;
+                height: 50px;
+                margin-top: -22px;
+            }
+            #page{
+                display: flex;
+                flex-direction: column;
+            }
+            #page>div{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                column-gap: 300px;
+                justify-content: space-around;
+                width: 100%;
+                /* border:2px solid black; */
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                margin-top: 50px;
+                flex-wrap: wrap;
+                
+            }
+            img{
+                width: 150px;
+                height: 120px;
+                border-radius: 5px 0px 2px 5px;
+                margin-left: 80px;
+                
+            }
+            .text{
+                text-align: center;
+            }
+            a{
+                color: azure;
+                font-size: larger;
+                text-decoration: none;
+                margin-top: 12px;
+            }
+            h1{
+                color: aqua;
+                font-size:xx-large;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgb(41, 34, 34);
+                height: 100px;
+                padding-top: 50px;
+            }
+
+    
+            @media screen and (min-width:767px) and (max-width:1024px){
+         
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="whole">
+    <div id="top"> <h1>My Portfolio</h1>
+        <div id="navbar">
+            <a href="">Home</a>
+            <a href="">Education</a>
+            <a href="">Project</a>
+            <a href="">Skills</a>
+            <a href="">Contact ME</a>
+        </div></div>
+   
+    <div id="page">
+        <div>
+            <div>
+                <img src="https://imgs.search.brave.com/kE6J0DriK5_lyLSn5Ft8PEsvvl6eK3v6V-Ia6mAB7SY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzE5LzE1Lzgw/LzM2MF9GXzMxOTE1/ODAyOV80SktYbTha/Snk3QmFhY2lSM1NC/Nlp1R3hMMW1WR1BS/QS5qcGc" alt="">
+            </div>
+            <div class="text"><h3>Home</h3>
+            <p>This is a dummy For the Home section Lorem ipsum dolor sit, amet consectetur adipisicing elit
+            </p></div>
+        </div>
+        <div>
+            <div><img src="https://imgs.search.brave.com/7IpUwK_WLDfCmJrBy9OMTe_5GqmzHs0iNlHhxx3WCIM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9iZWdp/bmRvdC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTgvMDMv/RWR1Y2F0aW9uLU1h/cmstMy5qcGc" alt=""></div>
+            <div class="text">
+                <h3>Education</h3>
+                <p>This is a dummy For the Education section Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div><img src="https://imgs.search.brave.com/xGTm2kwAvC4FnoYAmE2mdKZBcSuGmzo46kEUFboguXk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bmV3aG9yaXpvbnMu/Y29tL3BvcnRhbHMv/Mi9pbWFnZXMvcHJv/ZHVjdHMvY29tcHRp/YS9sYXllci0xLTIy/LnBuZw" alt=""></div>
+            <div class="text">
+                <h3>Project</h3>
+                <p>This is a dummy For the Education section Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                
+
+            </div>
+        </div>
+        <div><div>
+            <img src="https://imgs.search.brave.com/bB-zgd-r7FCMn284LP3aCBYWrRL4aQwJKi7LnYrU48c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzY4LzgzLzY2/LzM2MF9GXzY4ODM2/Njg2X3FLT2IyejFD/Ump3cHBUemVGZE5q/QkZ6SjllVVkxOXNp/LmpwZw" alt="">
+        </div>
+        <div class="text">
+            <h3>Skills</h3>
+            <p>This is a dummy For the Education section Lorem ipsum dolor sit, amet consectetur adipisicing elit. s</p>
+
+        </div></div>
+    </div>
+    </div>
+</body>
+</html>
